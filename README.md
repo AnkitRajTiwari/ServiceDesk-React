@@ -1,3 +1,9 @@
+## ⚠️ Important Setup Note
+
+> 💡 **You must install `node_modules` in *both* the `client` and `server` directories before running the project.**  
+> Follow the steps in the [Installation](#installation) section to ensure proper setup and avoid errors.
+
+
 # 🎫 Service Desk Application
 
 <div align="center">
@@ -10,6 +16,8 @@
 *A modern service desk application for efficient ticket management and support*
 
 🔗 **[Live Demo](https://service-3ys4.onrender.com/)**
+
+
 
 </div>
 
@@ -49,18 +57,17 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/service-desk.git
-   cd service-desk
+   git clone https://github.com/AnkitRajTiwari/ServiceDesk-React
+   cd ServiceDesk-React
    ```
 
 2. **Install dependencies**
    ```bash
    # Install server dependencies
-   cd server
    npm install
 
    # Install client dependencies
-   cd ../client
+   cd client
    npm install
    ```
 
